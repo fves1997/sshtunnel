@@ -1,0 +1,17 @@
+{
+  "tunnel": {
+    "host": "host:port",
+    "username": "username",
+    "password": "password"
+  },
+  "target": [
+    {
+      "host": "1.1.1.1:22",
+      "bind_port": 22
+    },
+    {
+      "host": "2.2.2.2:22",
+      "bind_port": 22
+    }
+  ]
+}
